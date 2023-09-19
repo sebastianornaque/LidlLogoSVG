@@ -1,0 +1,11 @@
+{
+  "name": "LidlLogoSVG",
+  "version": "1.0.0",
+  "main": "sampleExpress.js",
+  "repository": "https://github.com/sebastianornaque/LidlLogoSVG.git",
+  "author": "Sebastian Ornaque <sebastian.ornaque@scrm.lidl>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
