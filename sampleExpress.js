@@ -2,8 +2,22 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+app.use(express.json()) 
+
 app.get('/getSVG', (req, res) => {
-	console.log("getSVG")
+	console.log("getSVG - get")
+	console.log(req.headers);
+	console.log(req.body);
+	console.log(req.query);
+  res.send('Hello World!')
+})
+
+app.post('/getSVG', (req, res) => {
+	console.log("getSVG- post")
+	console.log(req.headers);
+	console.log(req.body);
+	console.log(req.query);
+	
   res.send('Hello World!')
 })
 
