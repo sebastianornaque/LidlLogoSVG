@@ -9,7 +9,7 @@ app.get('/getSVG', (req, res) => {
 	console.log(req.headers);
 	console.log(req.body);
 	console.log(req.query);
-  res.send('Hello World!')
+  res.send(5)
 })
 
 app.post('/getSVG', (req, res) => {
